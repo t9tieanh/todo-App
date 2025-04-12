@@ -2,6 +2,7 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
+            <Row className="text-center mb-3"> Đây là Phạm Tiến Anh </Row>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
